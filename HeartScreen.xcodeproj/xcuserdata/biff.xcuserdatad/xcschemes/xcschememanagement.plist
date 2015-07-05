@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>HeartScreen WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>HeartScreen.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>96CA0A2D1B49625C00BC4098</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>96CA0A4B1B4973DD00BC4098</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -13,6 +13,12 @@
 		96CA0A261B49625C00BC4098 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CA0A251B49625C00BC4098 /* Images.xcassets */; };
 		96CA0A291B49625C00BC4098 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96CA0A271B49625C00BC4098 /* LaunchScreen.xib */; };
 		96CA0A351B49625C00BC4098 /* HeartScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CA0A341B49625C00BC4098 /* HeartScreenTests.swift */; };
+		96CA0A471B4973DD00BC4098 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CA0A461B4973DD00BC4098 /* InterfaceController.swift */; };
+		96CA0A491B4973DD00BC4098 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CA0A481B4973DD00BC4098 /* Images.xcassets */; };
+		96CA0A4D1B4973DD00BC4098 /* HeartScreen WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 96CA0A4C1B4973DD00BC4098 /* HeartScreen WatchKit App.app */; };
+		96CA0A551B4973DD00BC4098 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CA0A531B4973DD00BC4098 /* Interface.storyboard */; };
+		96CA0A571B4973DD00BC4098 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CA0A561B4973DD00BC4098 /* Images.xcassets */; };
+		96CA0A5A1B4973DD00BC4098 /* HeartScreen WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 96CA0A421B4973DD00BC4098 /* HeartScreen WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +29,35 @@
 			remoteGlobalIDString = 96CA0A181B49625C00BC4098;
 			remoteInfo = HeartScreen;
 		};
+		96CA0A4E1B4973DD00BC4098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96CA0A111B49625C00BC4098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96CA0A4B1B4973DD00BC4098;
+			remoteInfo = "HeartScreen WatchKit App";
+		};
+		96CA0A581B4973DD00BC4098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96CA0A111B49625C00BC4098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96CA0A411B4973DD00BC4098;
+			remoteInfo = "HeartScreen WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		96CA0A611B4973DD00BC4098 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				96CA0A5A1B4973DD00BC4098 /* HeartScreen WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		96CA0A191B49625C00BC4098 /* HeartScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +70,14 @@
 		96CA0A2E1B49625C00BC4098 /* HeartScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96CA0A331B49625C00BC4098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96CA0A341B49625C00BC4098 /* HeartScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartScreenTests.swift; sourceTree = "<group>"; };
+		96CA0A421B4973DD00BC4098 /* HeartScreen WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HeartScreen WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CA0A451B4973DD00BC4098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CA0A461B4973DD00BC4098 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		96CA0A481B4973DD00BC4098 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96CA0A4C1B4973DD00BC4098 /* HeartScreen WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeartScreen WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CA0A521B4973DD00BC4098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CA0A541B4973DD00BC4098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		96CA0A561B4973DD00BC4098 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +95,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		96CA0A3F1B4973DD00BC4098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +110,8 @@
 			children = (
 				96CA0A1B1B49625C00BC4098 /* HeartScreen */,
 				96CA0A311B49625C00BC4098 /* HeartScreenTests */,
+				96CA0A431B4973DD00BC4098 /* HeartScreen WatchKit Extension */,
+				96CA0A501B4973DD00BC4098 /* HeartScreen WatchKit App */,
 				96CA0A1A1B49625C00BC4098 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +121,8 @@
 			children = (
 				96CA0A191B49625C00BC4098 /* HeartScreen.app */,
 				96CA0A2E1B49625C00BC4098 /* HeartScreenTests.xctest */,
+				96CA0A421B4973DD00BC4098 /* HeartScreen WatchKit Extension.appex */,
+				96CA0A4C1B4973DD00BC4098 /* HeartScreen WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +165,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		96CA0A431B4973DD00BC4098 /* HeartScreen WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				96CA0A461B4973DD00BC4098 /* InterfaceController.swift */,
+				96CA0A481B4973DD00BC4098 /* Images.xcassets */,
+				96CA0A441B4973DD00BC4098 /* Supporting Files */,
+			);
+			path = "HeartScreen WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		96CA0A441B4973DD00BC4098 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96CA0A451B4973DD00BC4098 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96CA0A501B4973DD00BC4098 /* HeartScreen WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				96CA0A531B4973DD00BC4098 /* Interface.storyboard */,
+				96CA0A561B4973DD00BC4098 /* Images.xcassets */,
+				96CA0A511B4973DD00BC4098 /* Supporting Files */,
+			);
+			path = "HeartScreen WatchKit App";
+			sourceTree = "<group>";
+		};
+		96CA0A511B4973DD00BC4098 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96CA0A521B4973DD00BC4098 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +211,12 @@
 				96CA0A151B49625C00BC4098 /* Sources */,
 				96CA0A161B49625C00BC4098 /* Frameworks */,
 				96CA0A171B49625C00BC4098 /* Resources */,
+				96CA0A611B4973DD00BC4098 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				96CA0A591B4973DD00BC4098 /* PBXTargetDependency */,
 			);
 			name = HeartScreen;
 			productName = HeartScreen;
@@ -150,6 +241,39 @@
 			productReference = 96CA0A2E1B49625C00BC4098 /* HeartScreenTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		96CA0A411B4973DD00BC4098 /* HeartScreen WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CA0A5E1B4973DD00BC4098 /* Build configuration list for PBXNativeTarget "HeartScreen WatchKit Extension" */;
+			buildPhases = (
+				96CA0A3E1B4973DD00BC4098 /* Sources */,
+				96CA0A3F1B4973DD00BC4098 /* Frameworks */,
+				96CA0A401B4973DD00BC4098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96CA0A4F1B4973DD00BC4098 /* PBXTargetDependency */,
+			);
+			name = "HeartScreen WatchKit Extension";
+			productName = "HeartScreen WatchKit Extension";
+			productReference = 96CA0A421B4973DD00BC4098 /* HeartScreen WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		96CA0A4B1B4973DD00BC4098 /* HeartScreen WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CA0A5B1B4973DD00BC4098 /* Build configuration list for PBXNativeTarget "HeartScreen WatchKit App" */;
+			buildPhases = (
+				96CA0A4A1B4973DD00BC4098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HeartScreen WatchKit App";
+			productName = "HeartScreen WatchKit App";
+			productReference = 96CA0A4C1B4973DD00BC4098 /* HeartScreen WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +289,12 @@
 					96CA0A2D1B49625C00BC4098 = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = 96CA0A181B49625C00BC4098;
+					};
+					96CA0A411B4973DD00BC4098 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					96CA0A4B1B4973DD00BC4098 = {
+						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
@@ -183,6 +313,8 @@
 			targets = (
 				96CA0A181B49625C00BC4098 /* HeartScreen */,
 				96CA0A2D1B49625C00BC4098 /* HeartScreenTests */,
+				96CA0A411B4973DD00BC4098 /* HeartScreen WatchKit Extension */,
+				96CA0A4B1B4973DD00BC4098 /* HeartScreen WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +334,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CA0A401B4973DD00BC4098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CA0A491B4973DD00BC4098 /* Images.xcassets in Resources */,
+				96CA0A4D1B4973DD00BC4098 /* HeartScreen WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CA0A4A1B4973DD00BC4098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CA0A551B4973DD00BC4098 /* Interface.storyboard in Resources */,
+				96CA0A571B4973DD00BC4098 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +375,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		96CA0A3E1B4973DD00BC4098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CA0A471B4973DD00BC4098 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +390,16 @@
 			isa = PBXTargetDependency;
 			target = 96CA0A181B49625C00BC4098 /* HeartScreen */;
 			targetProxy = 96CA0A2F1B49625C00BC4098 /* PBXContainerItemProxy */;
+		};
+		96CA0A4F1B4973DD00BC4098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96CA0A4B1B4973DD00BC4098 /* HeartScreen WatchKit App */;
+			targetProxy = 96CA0A4E1B4973DD00BC4098 /* PBXContainerItemProxy */;
+		};
+		96CA0A591B4973DD00BC4098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96CA0A411B4973DD00BC4098 /* HeartScreen WatchKit Extension */;
+			targetProxy = 96CA0A581B4973DD00BC4098 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +418,14 @@
 				96CA0A281B49625C00BC4098 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		96CA0A531B4973DD00BC4098 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96CA0A541B4973DD00BC4098 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,6 +566,62 @@
 			};
 			name = Release;
 		};
+		96CA0A5C1B4973DD00BC4098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = HeartScreen_WatchKit_Extension;
+				INFOPLIST_FILE = "HeartScreen WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		96CA0A5D1B4973DD00BC4098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = HeartScreen_WatchKit_Extension;
+				INFOPLIST_FILE = "HeartScreen WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		96CA0A5F1B4973DD00BC4098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HeartScreen WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		96CA0A601B4973DD00BC4098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HeartScreen WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +647,22 @@
 			buildConfigurations = (
 				96CA0A3C1B49625C00BC4098 /* Debug */,
 				96CA0A3D1B49625C00BC4098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96CA0A5B1B4973DD00BC4098 /* Build configuration list for PBXNativeTarget "HeartScreen WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CA0A5C1B4973DD00BC4098 /* Debug */,
+				96CA0A5D1B4973DD00BC4098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96CA0A5E1B4973DD00BC4098 /* Build configuration list for PBXNativeTarget "HeartScreen WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CA0A5F1B4973DD00BC4098 /* Debug */,
+				96CA0A601B4973DD00BC4098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

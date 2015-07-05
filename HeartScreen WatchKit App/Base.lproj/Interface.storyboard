@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller spacing="0.0" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HeartScreen_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <imageView alignment="left" image="Heart" id="8Qx-oP-It9"/>
+                        <label alignment="left" text="Heart Rate" id="QTe-yy-WM0">
+                            <color key="textColor" red="1" green="0.12407696" blue="0.18444068969999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label alignment="left" text="Put on Apple watch and fit it snuggly to your wrist" numberOfLines="5" id="QtY-X8-8Df"/>
+                        <label alignment="left" text="78 BPM, 21m ago" id="JgA-Pw-Fwa">
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3B274288-405A-4C3B-A3D8-F5F4432A7005</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FCBE51B95612F5D7581EEC2A761BCD4A05B1E618</key>
+		<string>https://github.com/Howlinmoon/HeartScreen.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HeartScreen.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FCBE51B95612F5D7581EEC2A761BCD4A05B1E618</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Howlinmoon/HeartScreen.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FCBE51B95612F5D7581EEC2A761BCD4A05B1E618</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FCBE51B95612F5D7581EEC2A761BCD4A05B1E618</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HeartScreen</string>
+		</dict>
+	</array>
+</dict>
+</plist>
