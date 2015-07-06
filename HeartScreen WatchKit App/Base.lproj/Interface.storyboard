@@ -14,7 +14,9 @@
                         <label alignment="left" text="Heart Rate" id="QTe-yy-WM0">
                             <color key="textColor" red="1" green="0.12407696" blue="0.18444068969999999" alpha="1" colorSpace="calibratedRGB"/>
                         </label>
-                        <label alignment="left" text="Put on Apple watch and fit it snuggly to your wrist" numberOfLines="5" id="QtY-X8-8Df"/>
+                        <label alignment="left" text="Put on Apple watch and fit it snuggly to your wrist" numberOfLines="5" id="QtY-X8-8Df">
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                        </label>
                         <label alignment="left" text="78 BPM, 21m ago" id="JgA-Pw-Fwa">
                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         </label>

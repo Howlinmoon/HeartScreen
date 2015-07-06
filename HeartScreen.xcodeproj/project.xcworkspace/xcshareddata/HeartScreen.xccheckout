@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>3B274288-405A-4C3B-A3D8-F5F4432A7005</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>HeartScreen</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>FCBE51B95612F5D7581EEC2A761BCD4A05B1E618</key>
 		<string>https://github.com/Howlinmoon/HeartScreen.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>HeartScreen.xcodeproj/project.xcworkspace</string>
+	<string>HeartScreen.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>FCBE51B95612F5D7581EEC2A761BCD4A05B1E618</key>
